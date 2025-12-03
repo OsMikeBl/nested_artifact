@@ -1,6 +1,6 @@
 output "vpc_id" {
   description = "VPC ID from the network module"
-  value       = module.network.vpc_id
+  value       = module.network_1.vpc_id
 }
 
 output "cluster_endpoint" {
